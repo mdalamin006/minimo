@@ -1,0 +1,256 @@
+/*Common start*/
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color:#626262;
+}
+/*Common End*/
+/*Header start*/
+header{
+padding:35px 0;
+}
+.container{
+margin:0 auto;
+width: 90%;
+
+overflow: hidden;
+}
+.logo{
+padding: 11px 0;
+width:14%;
+float:left;
+
+}
+.logo a img{
+width:100%;
+
+}
+.menu{
+width:45%;
+float:right;
+
+}
+.menu ul{
+float:right;
+}
+.menu ul li {
+margin-right: 63px;
+list-style: none;
+display: inline-block;
+float:left;
+}
+.menu ul li a {
+color:#626262;
+text-decoration: none;
+text-transform: uppercase;
+border:1px solid transparent;
+transition: .33s;
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid #626262;
+}
+.menu ul li:last-child {
+margin:0;
+}
+/*Header End*/
+/*Banner Start*/
+.b_img img{
+    width:100%;
+}
+/*Banner end*/
+/* Gateway*/
+.container2{
+margin:0 auto;
+width:80%;
+
+overflow: hidden;
+}
+.g_content{
+    padding: 90px 0 20px;
+}
+.g_light{
+margin:0;
+font-family: 'Ubuntu', sans-serif;
+font-weight: 300;
+font-size:14px;
+text-transform: uppercase;
+}
+.g_head{
+margin:25px 0;
+font-size:30px;
+font-weight: 700;
+}
+.g_text{
+    margin-top:27px;
+    margin-bottom:45px;
+    line-height: 24px;
+}
+.mt_45{
+    margin-top:45px;
+}
+/*Gateway end*/
+.blog{
+    padding-bottom:100px;
+}
+.s_content{
+width:47%;
+margin-top:80px;
+float: left;
+transition: .33s;
+}
+
+  
+.s_img img{
+margin-bottom: 28px;
+width:100%;
+}
+
+.g_head{
+    margin: 27px 0;
+}
+.g_text{
+    margin:0;
+}
+.s_content:nth-child(even){
+    margin-left: 6%;
+}
+.s_content:hover{
+    background-color:#d8d8d8;
+}
+/*News Start*/
+.news{
+background-color:#f0f0f0;
+padding: 100px;
+}
+.n_content{
+    text-align: center;
+}
+.n_h1{
+    margin: 0 0 65px;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 700;
+    color:#333333;
+}
+.n_form{
+position: relative;
+width:400px;
+margin:0 auto;
+}
+.n_form input{
+    font-family: 'Playfair Display';
+    font-size: 16px;
+    width: 349px;
+    height: 44px;
+    border: none;
+    border-bottom: 1px solid #333333;
+    background-color: transparent;
+    padding-right: 32px;
+
+}
+.n_form input:focus{
+    outline:0;
+}
+.n_form button{
+    position: absolute;
+    background: transparent;
+    border: none;
+    right: 32px;
+    top: 14px;
+}
+.n_form button img{
+    position: absolute;
+    
+}
+/*News End*/
+/*Last blog*/
+
+
+/*last blog end*/
+/*Load more*/
+.load{
+    padding: 100px 0;
+}
+.container3{
+    text-align: center;
+}
+.l_s button{
+    
+    border: 1px solid #626262;
+    background-color: transparent;
+    height: 59px;
+    width: 167px;
+ 
+
+}
+.l_s button a{
+    color: #626262;
+    font-weight: 400;
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    text-decoration: none;
+    border-bottom:1px solid transparent;
+    transition: .33s;
+}
+.l_s button a:hover{
+    border-bottom:1px solid #626262;
+}
+/*Load More end*/
+/*last*/
+.terms{
+    background-color:#f0f0f0;
+    min-height: 63px;
+    color:#3d3d3d;
+}
+.t_content{
+    overflow: hidden;
+    padding: 16px 0;
+}
+
+.l_first{
+    width:40%;
+    float: left;
+   
+}
+.l_first ul li{
+    margin-right: 28px;
+    list-style: none;
+    float:left;
+    display: inline-block;  
+}
+.l_first ul li a{
+    color:#3d3d3d;
+text-decoration: none;
+text-transform: capitalize;
+border:1px solid transparent;
+transition: .33s;
+}
+.l_first ul li a:hover{
+    border-bottom: 1px solid #626262;
+}
+.list{
+width:30%;
+float:right;
+
+}
+.list ul{
+float:right;
+}
+.list ul li{
+margin-right: 28px;
+list-style: none;
+float: left;
+display: inline-block;
+}
+.list ul li P{
+margin:0;
+}
+
+.list ul li:last-child{
+    margin:0;
+}
+
+/*Last end*/
