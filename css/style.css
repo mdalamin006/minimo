@@ -143,22 +143,21 @@ margin:0 auto;
 .n_form input{
     font-family: 'Playfair Display';
     font-size: 16px;
-    width: 391px;
+    width: 349px;
     height: 44px;
     border: none;
     border-bottom: 1px solid #333333;
     background-color: transparent;
-    padding-left: 0px;
-    padding-right: 45px;
+    padding-right: 32px;
 }
 .n_form input:focus{
     outline:0;
 }
 .n_form button{
-    position: absolute;
+     position: absolute;
     background: transparent;
     border: none;
-    right: 0px;
+    right: 32px;
     top: 14px;
 }
 .n_form button img{
