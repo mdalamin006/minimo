@@ -1,4 +1,4 @@
 # minimo
 Here is minimo project
 preview
-https://mdalaminahmed.github.io/minimo/
+https://mdalamina006.github.io/minimo/
